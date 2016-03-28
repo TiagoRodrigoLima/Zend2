@@ -1,11 +1,11 @@
-nbproject
+#nbproject
 ._*
 .vagrant
 .~lock.*
 .buildpath
 .DS_Store
 .idea
-.project
+#.project
 .settings
 vendor
 composer.phar
