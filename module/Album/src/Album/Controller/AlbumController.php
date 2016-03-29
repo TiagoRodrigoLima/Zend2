@@ -13,19 +13,32 @@
 
  class AlbumController extends AbstractActionController
  {
-     public function indexAction()
-     {
-     }
+    protected $albumTable;
 
-     public function addAction()
-     {
-     }
+    public function indexAction() {
+        return new ViewModel(array(
+            'albums' =>  $this->getAlbumTable()->fetchAll(),
+        ));
+    }
 
-     public function editAction()
-     {
-     }
+    public function addAction() {
+        
+    }
 
-     public function deleteAction()
-     {
-     }
- }
+    public function editAction() {
+        
+    }
+
+    public function deleteAction() {
+        
+    }
+
+    public function getAlbumTable() {
+        if (!$this->albumTable) {
+            $sm = $this->serviceLocator;
+            $this->albumTable = $sm->get('Album\Model\AlbumTable');
+        }
+        return $this->albumTable;
+    }
+
+}

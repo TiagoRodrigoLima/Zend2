@@ -3,7 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/var/www/Zend2/module/Album/module.php</file>
+            <file>file:/C:/xampp/htdocs/Zend2/module/Album/module.php</file>
+            <file>file:/C:/xampp/htdocs/Zend2/config/application.config.php</file>
+            <file>file:/C:/xampp/htdocs/Zend2/config/autoload/global.php</file>
+            <file>file:/C:/xampp/htdocs/Zend2/module/Album/view/album/album/index.phtml</file>
+            <file>file:/C:/xampp/htdocs/Zend2/config/autoload/local.php.dist</file>
+            <file>file:/C:/xampp/htdocs/Zend2/module/Album/config/module.config.php</file>
         </group>
     </open-files>
 </project-private>
